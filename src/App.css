@@ -1,0 +1,52 @@
+@font-face {
+	font-family: "rick";
+	src: local("get_schwifty"),
+		url("./fonts/get_schwifty.ttf") format("truetype");
+}
+
+.header {
+	background-color: lightcoral;
+	padding: 20px;
+	text-align: center;
+}
+
+.header h1 {
+	font-size: 3.5rem;
+	font-weight: bold;
+	font-family: "rick";
+	color: #63cbfb;
+	-webkit-text-stroke: 1px #1b6f20;
+}
+
+.main {
+	margin: 0 auto;
+	max-width: 1200px;
+	height: 100%;
+	margin-top: 75px;
+	text-align: center;
+}
+
+.main h2 {
+	font-size: 1.75rem;
+	margin-bottom: 50px;
+}
+
+.grid {
+	max-width: fit-content;
+	margin: 0 auto;
+	display: grid;
+	justify-content: center;
+	gap: 30px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+	width: 225px;
+	height: 225px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.card:hover {
+	background-color: #63cbfb;
+}
